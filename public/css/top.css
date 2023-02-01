@@ -1,0 +1,159 @@
+.top{
+    position: relative;
+}
+.top_img{
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.top_img img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.img_text{
+    width: 100%;
+    position: absolute;
+	top: 40%;
+	left: 0;
+    z-index: 50;
+}
+
+
+.img_text h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);
+    color: #fff;
+    letter-spacing: 0.4rem;
+}
+
+.main_contents{
+    width: 90%;
+    margin: 250px auto;
+}
+
+/* メッセージ */
+.message_section{
+    background-color: #fff;
+    margin: 0;
+    padding: 40px 0;
+}
+.message_wrap{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.message{
+    color:#20b2aa;
+}
+
+.message_text{
+    margin: 3em 7em;
+}
+
+.message_text p{
+    line-height: 2em;
+
+}
+
+/* メイン */
+.main_content1, .main_content2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.main_content2{
+    flex-flow: row-reverse;
+}
+
+/* 円 */
+@media screen and (min-width:700px) {
+    
+.circle1, .circle2, .circle3, .circle4
+    {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    }
+}
+
+.circle1{
+    background-color: #6495ed;
+    transform: translate(50px,-100px);
+}
+
+.circle2{
+    background-color: #8bf189;
+    transform: translate(-50px,-100px);
+}
+
+.circle3{
+    background-color: #ef9f2e;
+    transform: translate(50px,-100px);
+}
+
+.circle4{
+    background-color: #f45b77;
+    transform: translate(-50px,-100px);
+}
+
+/* 円中の文字 */
+.circle_title{
+    font-size: 35px;
+}
+
+.box_text{
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* 画像 */
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* アニメーション背景 */
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(250, 248, 178) 50%, rgb(153, 246, 250) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+

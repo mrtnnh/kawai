@@ -1,0 +1,160 @@
+.page_title{
+    font-size: 110%;
+    margin: 150px 0 0 0;
+    padding: 10px ;
+    background-color: #8bf189;
+    width: 35%;
+    border-radius: 0  100px 100px 0;
+}
+
+.contents{
+    margin: 4em 2em;
+} 
+
+.sub_title_wrap{
+    margin: 3em 0 0 0;
+}
+
+.sub_title{
+    font-size: 28px;
+   display: flex;
+   align-items: center;
+}
+
+.sub_title:before{
+    border-top: 5px solid #8bf189; 
+    content: "";
+    width: 1.5em;
+    margin: 0 5px;
+}
+
+.sub_title:after{
+    margin: 0 5px;
+}
+
+.work{
+    display: flex;
+    justify-content: space-around;
+}
+
+.work_text{
+    width: 50%;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.work_image{
+    overflow: hidden;
+	width: 40%;
+}
+
+.work_image img{
+    width:100%;
+    object-fit: cover;
+
+}
+
+.work_viewmore{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.work_viewmore:hover{
+    color: #8bf189;
+}
+
+#training{
+    line-height: 2em;
+}
+
+#training p{
+    margin: 0 2em;
+}
+
+.int_img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.int_img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 仕事内容ページ */
+.service_box_wrap{
+    display:flex;
+    justify-content: space-around;
+}
+
+.service_box{
+    text-align: center;
+    border: solid 2px #8bf189;
+    padding: 1.5em;
+    margin: 1em;
+    width: 40%;
+}
+
+.work_case_wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.work_case{
+    width: 40%;
+}
+
+.work2_img{
+    width: 40%;
+}
+
+.work2_img img{
+    width: 100%;
+}
+
+.process{
+    margin: 2em;
+}
+
+.process_img{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.process_img img{
+    width: 100%;
+}
+
+/* 研修内容ページ */
+.schedule_img{
+    margin: 1.5em auto;
+    width: 90%;
+}
+
+.schedule_img img{
+    width: 100%;
+}
+
+.schedule_list{
+    line-height: 2em;
+}
+
+.career_img{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.career_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.bold{
+    font-weight: bold;
+}

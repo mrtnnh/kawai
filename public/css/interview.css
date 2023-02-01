@@ -1,0 +1,209 @@
+.interview_wrap{
+    width: 100%;
+}
+
+.interview_box{
+    display: flex;
+    margin: 1em;
+}
+.int_ses{
+    width:100px;
+    flex-shrink: 0;
+    margin: 1em;
+    text-align: center;
+}
+
+.int_ses img{
+    width: 100%;
+    object-fit:contain;
+}
+
+.interview_q{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1em 0;
+}
+
+.interview_a{
+    position: relative;
+    display: inline-block;
+    margin: auto 0;
+    padding: 1em;
+    min-width: 100px;
+    max-width: 100%;
+    color: #333;
+    line-height: 2em;
+    background: #fff;
+    border: solid 3px #ffbf7f;
+    box-sizing: border-box;
+    border-radius: 2em;
+}
+
+.interview_a::before,
+.interview_a::after{
+    content: '';
+    border: 14px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.interview_a::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+    z-index: 2;
+}
+
+.interview_a::after { 
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #ffbf7f;
+    z-index: 1;
+  }
+
+.interview_b{
+    position: relative;
+    display: inline-block;
+    margin: auto 0;
+    padding: 1em;
+    min-width: 100px;
+    max-width: 100%;
+    color: #333;
+    line-height: 2em;
+    background: #fff;
+    border: solid 3px  #fb89a5;
+    box-sizing: border-box;
+    border-radius: 2em;
+}
+
+.interview_b::before,
+.interview_b::after{
+    content: '';
+    border: 14px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.interview_b::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+    z-index: 2;
+}
+
+.interview_b::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #fb89a5;
+    z-index: 1;
+}
+
+.interview_c{
+    position: relative;
+    display: inline-block;
+    margin: auto 0;
+    padding: 1em;
+    min-width: 100px;
+    max-width: 100%;
+    color: #333;
+    line-height: 2em;
+    background: #fff;
+    border: solid 3px  #83ec94;
+    box-sizing: border-box;
+    border-radius: 2em;
+}
+
+.interview_c::before,
+.interview_c::after{
+    content: '';
+    border: 14px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.interview_c::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+    z-index: 2;
+}
+
+.interview_c::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #83ec94;
+    z-index: 1;
+}
+
+.interview_d{
+    position: relative;
+    display: inline-block;
+    margin: auto 0;
+    padding: 1em;
+    min-width: 100px;
+    max-width: 100%;
+    color: #333;
+    line-height: 2em;
+    background: #fff;
+    border: solid 3px  #c995e4;
+    box-sizing: border-box;
+    border-radius: 2em;
+}
+
+.interview_d::before,
+.interview_d::after{
+    content: '';
+    border: 14px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.interview_d::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+    z-index: 2;
+}
+
+.interview_d::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #c995e4;
+    z-index: 1;
+}

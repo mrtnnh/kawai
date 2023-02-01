@@ -1,0 +1,187 @@
+
+body{
+ width:auto;
+ margin:0;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contents{
+    margin: 4em auto;
+    width: 80%;
+} 
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #fff;
+    box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.5);
+}
+
+.nav_wrap{
+    height: 90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_navbar{
+    display: flex;
+    font-size: 20px;
+}
+
+.nav_content{
+    margin: 10px;
+}
+
+/* 右のナビ */
+.nav_ses:hover{
+    border-bottom: 5px solid #6495ed;
+    border-radius: 2px;
+}
+
+.nav_work:hover{
+     border-bottom: 5px solid #8bf189;
+     border-radius: 2px;
+}
+
+.nav_environmment:hover{
+    border-bottom: 5px solid #ef9f2e;
+    border-radius: 2px;
+}
+
+.nav_entry:hover{
+    border-bottom: 5px solid #f45b77;
+    border-radius: 2px;
+}
+
+
+
+/* 社名 */
+.company_name{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* view more */
+.viewmore:hover{
+    color: #ffff;
+}
+
+/* お問い合わせ */
+.inquiry{
+    width: 100%;
+    background-color:#f0eeee;
+}
+
+.footer_title{
+    text-align: center;
+    padding: 1.5em 0 0 0;
+}
+
+.footer_title h1{
+    color:#0e918b;
+}
+
+.footer_btn{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.btn_wrap{
+    margin: 2em;
+}
+
+.btn:hover{
+    color: #fafafa;
+}
+
+.btn{
+    font-size: 20px;
+    width: 200px;
+    padding: 1em;
+    border-radius: 50px;
+    background-color: rgb(181, 249, 249);
+    border-color: #fafafa;
+}
+
+/* フッター */
+footer{
+    width: 100%;
+    height: max-content;
+}
+
+.info_wrap{
+    padding: 1em;
+    color: #fafafa;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: space-around;
+}
+
+.sitemap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sitemap_box{
+    margin: 0 2em;
+}
+
+.complete_message{
+    margin: 25% 0 0 0;
+    text-align: center;
+}
+
+.error{
+    padding: 5em;
+    margin: auto 0;
+    text-align: center;
+}
+
+.animationDown{
+    opacity : 0;
+	transition: 2s;
+	transform: translateY(-100px);
+}
+
+.animationUP{
+	opacity : 0;
+	transition: 2s;
+	transform: translateY(200px);
+}
+
+.animationSlide{
+    opacity : 0;
+	transition: 2s;
+    transform: translateX(200px);
+}
+
+.active{
+	opacity: 1;
+	transform: translateY(0px);
+	transform: translateX(0px);
+}

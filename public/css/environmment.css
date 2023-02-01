@@ -1,0 +1,64 @@
+.page_title{
+    font-size: 110%;
+    margin: 150px 0 0 0;
+    padding: 10px ;
+    background-color: #ef9f2e;
+    width: 35%;
+    border-radius: 0  100px 100px 0;
+}
+
+.contents{
+    margin: 4em 2em;
+} 
+
+.sub_title_wrap{
+    margin: 3em 0 0 0;
+}
+
+.sub_title{
+    font-size: 28px;
+   display: flex;
+   align-items: center;
+}
+
+.sub_title:before{
+    border-top: 5px solid #ef9f2e; 
+    content: "";
+    width: 1.5em;
+    margin: 0 5px;
+}
+
+.sub_title:after{
+    margin: 0 5px;
+}
+
+.welfare_text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_wrap {
+	width: 90%;
+	height: 100vh;
+	position: relative;
+	top: 0;
+	left: 0;
+    margin: 0 auto;
+}
+
+.img_wrap img {
+	width:100%;
+    height: 90%;
+	position: absolute;
+	object-fit: cover;
+}
+
+.welfare_list{
+    width: 25%;
+    padding: 2em;
+    border: solid 2px #ef9f2e;
+}
+
+.welfare_list li{
+    line-height: 2em;
+}
